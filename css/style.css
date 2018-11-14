@@ -1,0 +1,136 @@
+.style {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav {
+    text-align: justify;
+    min-width: 500px;
+    background-color: #666666;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+#nav li {
+   /* line-height: 67px;*/
+   padding-top: 20px;
+  text-align: center;
+  width: 150px;
+    display: inline-block;
+}
+
+
+
+.intro-image {
+    background-image: url(../images/cannabisflower.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro-text {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*cbd care page*/ 
+
+body {
+    background-color: #3B873B;
+}
+
+.cbd-img {
+   display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    width: 50%;    
+}
+.cbdtext{
+    text-align: center;
+}
+.cbdheader{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*events page*/
+.eventheader {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    width:700px;
+}
+
+.eventinfo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    width:500px;
+}
+
+.cbd-img {
+    margin-top: 50px;
+}
+
+/*contact page*/
+.contactinfo {
+    width:50%;
+    float: right;
+    text-align: center;
+}
+.contactinfo p {
+    margin-top: 200px
+}
+.contactpic {
+    /*float: left;*/
+}
+.contactpic img{
+    height: 700px;
+    width: 600px;
+}
+
+/*photo credit*/
+.credit p {
+    font-size: 8px;
+} 
+
+/*photo credit cbdcarepage*/
+.photocredit p {
+    text-align: center;
+    font-size: 8px;
+}
+/*photo credit events page*/
+.eventpic p{
+    text-align: center;
+    font-size: 8px;
+}
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: #83888C;
+}
+
